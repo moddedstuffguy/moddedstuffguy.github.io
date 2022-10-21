@@ -3,9 +3,9 @@
 *ModdedStuffGuy*
 
 ## GeneralMathsMOD
-### **GeneralMathsMOD** (Version 0.3.1)
+#### **GeneralMathsMOD** (Version 0.3.1)
 *Deployed* GeneralMathsMOD website: [GeneralMathsMOD](https://generalm4ths.peroorep.repl.co/)
-### Repository
+#### Repository
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=moddedstuffguy&repo=GeneralMathsMOD&theme=synthwave)](https://github.com/moddedstuffguy/GeneralMathsMOD)
-### *Deploy* your OWN GeneralMathsMOD
+#### *Deploy* your OWN GeneralMathsMOD
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&frepository=github.com/moddedstuffguy/GeneralMathsMOD)
