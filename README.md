@@ -8,4 +8,4 @@
 #### Repository
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=moddedstuffguy&repo=GeneralMathsMOD&theme=synthwave)](https://github.com/moddedstuffguy/GeneralMathsMOD)
 #### *Deploy* your OWN GeneralMathsMOD
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&frepository=github.com/moddedstuffguy/GeneralMathsMOD)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&frepository=github.com/moddedstuffguy/GeneralMathsMOD)
