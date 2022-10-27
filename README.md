@@ -3,7 +3,7 @@
 *ModdedStuffGuy*
 
 ## GeneralMathsMOD
-#### **GeneralMathsMOD** (Version **0.6.2**) 
+#### **GeneralMathsMOD** (Version **0.6.3**) 
 *Deployed* GeneralMathsMOD website: [GeneralMathsMOD](https://generalm4ths.peroorep.repl.co/)
 #### Repository
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=moddedstuffguy&repo=GeneralMathsMOD&theme=synthwave)](https://github.com/moddedstuffguy/GeneralMathsMOD)
