@@ -1,4 +1,4 @@
-# MODDED STUFF INDEX
+# MODDEDSTUFFGUY'S MOD INDEX
 "Software Modding is a world in which you are aporting new creative ideas to already created software and constructing your creative mind"
 *ModdedStuffGuy*
 
@@ -11,5 +11,3 @@
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&frepository=github.com/moddedstuffguy/GeneralMathsMOD)
-
-[google](https://google.com)
