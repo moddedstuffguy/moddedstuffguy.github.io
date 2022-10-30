@@ -94,7 +94,7 @@
    * @return {Void}
    */
   function setup() {
-    var number = prompt('How many snowflakes would you like?'),
+    var number = 159
         particle,
         i;
 
