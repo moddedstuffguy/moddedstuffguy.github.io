@@ -4,9 +4,45 @@
     <link rel="icon" href="js.png">
   </head>
   <body>
-    <h1 align="center" style="color:Tomato;">COMMING SOON</h1>
-    <p align="left" style="color:Tomato;">I will upload here my <i>favorite <b>Javascript BOOKMARKLETS</b></i> for <b>Chrome</b> that I <i><b>love</b></i> using as they are very helpful for me!<br><i>Almost</i> everyone of the <b>bookmarklets</b> are <b>not mine</b></p>
-    <h2 align="center">JAVASCRIPT BOOKMARKLETS LIST</h2>
-    <p><i><b>COMMING SOON</b</i></p>
+    <h1 align="center" style="color:Tomato;">My Favorite JS Bookmarklets</h1>
+    <h3 align="center" style="color:Tomato;">I will upload here my <i>favorite <b>Javascript BOOKMARKLETS</b></i> for <b>Chrome</b> that I <i><b>love</b></i> using as they are very helpful for me!<br><i>Almost</i> everyone of the <b>bookmarklets</b> are <b>not mine</b></h3>
+    <h3></h3>
+    <h1 align="center">JAVASCRIPT BOOKMARKLETS LIST</h1>
+    <p></p>
+    <h4>Cookmarklet</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:(function(){ var base = document, e = base.getElementById('cookmarklet-container'); if(e!==null){ base.body.removeChild(e); } var host = '//dylanroy.github.io/cookmarklet/', timestamp = new Date().getTime(), container = base.createElement('div'), closeLink = base.createElement('a'), cookiesList = base.createElement('div'), cssLink = base.createElement('link'), scripts = base.createElement('script'); container.setAttribute('id', 'cookmarklet-container'); closeLink.setAttribute('id', 'cookmarklet-close'); closeLink.setAttribute('href', "javascript: window.document.body.removeChild(window.document.getElementById('cookmarklet-container')); void(0);"); cookiesList.setAttribute('id', 'cookies'); cssLink.setAttribute('rel', 'stylesheet'); cssLink.setAttribute('href', host+'css/cookmarklet.css'); base.head.appendChild(cssLink); container.appendChild(closeLink); container.appendChild(cookiesList); scripts.setAttribute('src', host+'js/cookmarklet.js?%27+timestamp);%20container.appendChild(scripts);%20base.body.appendChild(container);%20closeLink.innerText%20=%20%27Close%27;%20scripts.onload%20=%20function(){%20driver%20=%20base.createElement(%27script%27);%20driver.setAttribute(%27src%27,%20host+%27js/driver.js?%27+timestamp);%20base.body.appendChild(driver);%20};%20})();">Cookmarklet</a>
+    <p></p>
+    <p></p>
+    <h4>Website Local Storage Inspector</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:(function(){function l(a,b){b=a.target,a.preventDefault();var d=b.getAttribute("data-k");switch(b.className){case"lc":h.removeItem(d),k();break;case"lv":b.parentNode.innerHTML="<pre>"+h[d]+"</pre>";break;case"lca":h.clear(),k();break;case"sc":i.removeItem(d),k();break;case"sv":b.parentNode.innerHTML="<pre>"+i[d]+"</pre>";break;case"sca":i.clear(),k();break;case"x":c.style.display="none"}}function k(){e=j+"<tr><th colspan=3><h1>localStorage inspector</h1><th><a href=#%20class=x%3Eclose%3C/a%3E%3Ctr%3E%3Cth%3Estorage%20key%3Cth%3Esize%3Cth%3E%3Cth%3E%3Ca%20href=#%20class=lca%3Eclear%20all%3C/a%3E%22,e+=h.length?%22%22:%22%3Ctr%3E%3Ctd%3ENo%20Data%22;for(d=0;d%3Ch.length;d++)g=h.key(d),e+=(%22%3Ctr%3E%3Ctd%3E$%3Ctd%3E%22+h[g].length+%22%3Ctd%3E%3Ca%20href=#%20data-k=\%22$\%22%20class=lv%3Eview%3C/a%3E%3Ctd%3E%3Ca%20href=#%20data-k=\%22$\%22%20class=lc%3Eclear%3C/a%3E%22).replace(/\$/g,g);e+=%22%3Ctr%3E%3Cth%20colspan=3%3E%3Ch1%3EsessionStorage%3C/h1%3E%3Ctr%3E%3Cth%3Estorage%20key%3Cth%3Esize%3Cth%3E%3Cth%3E%3Ca%20href=#%20class=sca%3Eclear%20all%3C/a%3E%22,e+=i.length?%22%22:%22%3Ctr%3E%3Ctd%3ENo%20Data%22;for(d=0;d%3Ci.length;d++)g=i.key(d),e+=(%22%3Ctr%3E%3Ctd%3E$%3Ctd%3E%22+i[g].length+%22%3Ctd%3E%3Ca%20href=#%20data-k=\%22$\%22%20class=sv%3Eview%3C/a%3E%3Ctd%3E%3Ca%20href=#%20data-k=\%22$\%22%20class=sc%3Eclear%3C/a%3E%22).replace(/\$/g,g);c.innerHTML=e}var%20a=document,b=%22localStorageList%22,c=a.getElementById(b),d,e,f,g,h=window.localStorage,i=window.sessionStorage,j=%22%3Cstyle%3E$%20th,%20$%20td%20{padding:0%201em;text-align:left;}$%20th{font-weight:bold}$%20pre{max-width:400px;max-height:300px;overflow:auto;white-space:pre-wrap;}$%20h1{font:16px/32px%20sans-serif;}%3C/style%3E%22.replace(/\$/g,%22#%22+b);c||(c=a.createElement(%22table%22),a.body.appendChild(c),c.addEventListener(%22click%22,l,!1)),c.setAttribute(%22id%22,b),c.setAttribute(%22style%22,%22position:fixed;top:20px;right:20px;padding:20px;background:#fff;font:12px/20px%20monospace;z-index:99999;max-height:100%;overflow:auto;border-radius:10px;border:2px%20solid%20#000%22),c.style.display="block",k()})()"">Local Storage Inspector</a>
+    <p></p>
+    <p></p>
+    <h4>Eruda DEVTOOLS</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:(function () {var script=document.createElement('script');script.src="//cdn.jsdelivr.net/npm/eruda";document.body.appendChild(script); script.onload = function () { eruda.init() } })();">Eruda Devtools</a>
+    <p></p>
+    <p></p>
+    <h4>PortaProxy for GeneralM4ths <b>(Doesn't appear on your browsing history)</b></h4>
+    <h5>NOTE: For closing portaproxy, Reload (With "Ctrl + r")or close the page (with "Ctrl + w") in which you opened it</h5>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:(function(){var a=document.getElementById("rusic-modal")||document.createElement("iframe");a.setAttribute("allow","fullscreen");a.src="https://generalm4ths.peroorep.repl.co/";a.id="rusic-modal";a.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";document.body.appendChild(a);}());">PortaProxy</a>
+    <p></p>
+    <p></p>
+    <h4>Auto-Reload Page</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:timeout=prompt("Set timeout [s]");current=location.href;if(timeout>0)  setTimeout('reload()',1000*timeout);else  location.replace(current);function reload(){  setTimeout('reload()',1000*timeout);  fr4me='<frameset cols=\'*\'>\n<frame src=\''+current+'\'/>';  fr4me+='</frameset>';  with(document){write(fr4me);void(close())};}">Autoreload</a>
+    <p></p>
+    <p></p>
+    <h4>Google Classroom Cloak</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:function gcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link'); link.type = 'image/x-icon'; link.rel = 'shortcut icon'; link.href = 'https://ssl.gstatic.com/classroom/favicon.png'; document.title = 'Classroom'; console.log(document.title); document.getElementsByTagName('head')[0].appendChild(link) }; gcloak();setInterval(gcloak, 1);">Classroom CLOAK</a>
+    <p></p>
+    <p></p>
+    <h4>Script Prompt</h4>
+    <p><b>DRAG THE LINK INTO YOUR BOOKMARKS LIST</b></p>
+    <a href="javascript:function JSexe(){ if(valJS!='null' && valJS!='undefined')strJS=valJS; strJS=prompt('Your Javascript code or variable:',strJS); if(strJS!=null && strJS!='' && strJS!='undefined'){  setTimeout('valJS=\'\'+eval(strJS);JSexe()',10); } else{valJS='';strJS='';}}valJS='';strJS='';JSexe();">Script Prompt</a>
+    <h1 align="center">MORE BOOKMARKLETS COMMING SOON!</h1>
   </body>
 </html>
