@@ -1,4 +1,6 @@
-// Code isn't from moddedstuffguy (AKA me). I've found by searching on Google. 
+// Code isn't from moddedstuffguy
+// I've found this script with some coffee and some googling
+// I've changed snowflake's color to black cause my web is white theme only
 (function() {
   var snowflakes = [],
       moveAngle = 0,
