@@ -25,7 +25,7 @@
         style = el.style;
 
     style.borderRadius = '100%';
-    style.border = getRandomNumber(1, 4) + 'px solid white';
+    style.border = getRandomNumber(1, 4) + 'px solid black';
     style.position = 'fixed';
     style.zIndex = '999999';
     style.boxShadow = '0 0 2px rgba(255,255,255,0.8)';
@@ -94,7 +94,7 @@
    * @return {Void}
    */
   function setup() {
-    var number = 159
+    var number = 135
         particle,
         i;
 
