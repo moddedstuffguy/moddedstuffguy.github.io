@@ -1,0 +1,1 @@
+function iconcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link'); link.type = 'image/x-icon'; link.rel = 'shortcut icon'; link.href = './math.ico'; document.title = 'GMaths DEMO'; console.log(document.title); document.getElementsByTagName('head')[0].appendChild(link) }; iconcloak();setInterval(iconcloak, 1);
